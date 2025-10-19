@@ -1,0 +1,269 @@
+  h1 {
+        color: rgb(93, 25, 133);
+        text-align: center;
+         font-family: Arial, Helvetica, sans-serif;
+        margin:0;
+        padding: 0;
+  }
+
+     nav {
+        background-color: lightgray;
+        padding: 10px; width: 100%;
+        text-align: right;
+}
+
+    ul {
+  text-align: center; 
+    }
+
+    ul li {
+    display: inline-block; 
+        margin: 5px auto;
+        font-size: 20px;
+        margin-right: 20px;
+
+
+    }
+    img {
+        width: 200px;
+        height: auto;
+        border-radius: 10px;
+    }
+    h2 {
+        color: rgb(128, 54, 197);
+        text-align: center;
+        width: 100%;
+    }
+    h2.monkey {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        width: 100%;
+    }
+
+ h2.frukt {
+        color: rgba(47, 50, 255, 0.575);
+        text-align: center;
+        width: 100%; 
+        text-shadow: -4px 2px 4px rgba(0, 0, 0, 0.5);       
+        
+    }
+    h2.disk {
+        color: rgb(121, 14, 121);
+        text-align: left;
+        font-size: 20px;
+    }
+    h2.dsa {
+        color: rgb(93, 25, 133);
+        text-align: center;
+        position: fixed;
+        font-size: 30px;
+        width: 100%;
+        
+    }   
+main{ 
+    flex-grow: 1;
+  min-height: 0; 
+  margin: 0; 
+  padding: 0;}
+
+    footer {
+       background-color: lightgray;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 10%;
+  margin: 0;
+  padding: 20px 0;
+  text-align: center;
+  flex-grow: 0;
+  
+  
+  
+ 
+}
+        
+    
+    h3 {
+        color: rgb(0, 0, 0);
+        text-align: center;
+        margin:0;
+        padding: 0;
+    }
+    * {
+        box-sizing: border-box;
+        padding: 0px;
+        margin: 0px;    
+    }
+
+    section.box {
+        padding: 1% ; 
+        margin: 10px;   
+        
+    }   
+
+    a {
+        text-decoration: none;
+        color: rgba(0, 47, 255, 0.767);
+        font-family: 'Franklin Gothic Medium';
+        transition: 0.5s;
+    }
+    a:hover {
+        color: rgba(0, 47, 255, 0.767);
+        font-size: 25px;
+        transition: 0.5s;
+        
+
+    }
+    a.apa {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium';
+        font-size: 9%;
+    }
+    p.sigma {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium';
+        font-size: 15px;
+        height: 10%;
+        transition: 0.5s;
+  
+    }
+
+    p.sigma:hover {
+        color: rgb(0, 0, 0);
+        font-size: 20px;
+        transition: 0.5s;
+    }
+
+    p.nif {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium';
+        font-size: 15px;
+        height: 10%;
+  
+    }
+
+    p.kaka {
+       text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family: 'Franklin Gothic Medium';
+        font-size: 15px;
+        height: 10%;
+        text-align: left;
+    }
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: 50px;
+         display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin-bottom: 0px;
+  
+        
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 300px);
+    background-color: rgb(255, 255, 255);
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.grid-container-2{
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    grid-auto-rows: minmax(100px);
+    grid-gap: 10px;
+    justify-content: center;
+}
+
+.grid
+   {
+    display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 20px; 
+   height: 500px;
+   
+  
+}
+.grid-3:nth-child(odd) {
+   grid-column: 1;
+   background-color: rgb(0, 0, 255);
+   height: 70%;
+    border: 5px solid black;
+
+}
+
+.grid-3:nth-child(even) {
+   grid-column: 1.5;
+   background-color: rgb(128, 0, 128); 
+    height: 80%;
+    border: 5px solid black;
+    
+}
+
+
+
+.container{
+ display: grid;
+  grid-template-columns: 1fr;     
+  max-width: 100%;                
+  margin: 20px auto;              
+  background-color:lightgray;
+  grid-gap: 10px;
+  justify-content: center;
+  padding: 10px;
+  border: 5px solid black;
+  position: de;
+}
+.dontainer-item{
+    border: 1px solid black;
+    text-align: left;
+    background-color: rgba(114, 133, 96, 0.274);
+    font-size: 24px;
+    color: rgba(255, 0, 0, 0);
+}
+
+.grid-item{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(114, 133, 96, 0.274);
+    font-size: 24px;
+    color: rgba(255, 0, 0, 0);
+    height: 45%;
+    align-items: center;
+}
+.grid-item-2{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgba(114, 133, 96, 0.274);
+    font-size: 24px;
+    color: rgba(255, 0, 0, 0);
+    height: 45%;
+    align-items: right;
+}
+
+
+
+
+
+ .float{
+    float: right;
+    margin: 10px;
+    padding: 1% ; 
+        margin: 10px;   
+       
+}
+
+
+
+.gradient-background {
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(circle, rgba(36, 23, 221, 0.664),rgb(109, 24, 134),rgb(255, 255, 255));
+}
+
+ 
